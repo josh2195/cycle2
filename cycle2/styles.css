@@ -1,0 +1,101 @@
+body {
+    alignment: center;
+    text-align: center;
+    font-family: Calibri;
+    background-color: black;
+}
+
+main {
+    alignment: center;
+    font-family: Calibri;
+    color: white;
+}
+
+header {
+    background-color: indigo;
+    color: white;
+    font-size: x-large;
+    font-family: "Malgun Gothic";
+    alignment: center;
+    border: 5px groove yellow;
+    padding: 10px;
+}
+
+footer {
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    border: 2.5px groove yellow;}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    alignment: center;
+    padding: 10px;
+}
+
+.important {
+    color: red;
+}
+
+.awesome {
+    color: limegreen;
+}
+
+.picture {
+    position: absolute;
+    bottom: 15%;
+}
+
+p {
+    text-align: center;
+    alignment: center;
+}
+
+#submit {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    display: block;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    padding: 5px;
+}
+
+nav a:link {
+    color: #E6FFE1;
+    background-color: #9099a2;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #E6FFE1;
+    background-color: #9099a2;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #000000;
+    background-color: #96858F;
+}
+nav a:active {
+    color: #96858F;
+    background-color: #000000;
+}
